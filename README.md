@@ -11,6 +11,10 @@ wget https://github.com/BlackHawk171/Web/raw/master/Word%2CJoomla%20ja%20Prestas
 
 chmod +x Word\,Joomla\ ja Prestashop.bash
 
+NB!!! Kui skript ei tööta sisesta järgnev käsk:
+
+sed -i -e 's/\r$//' domeen2.bash
+
 3. Käivita skript:
 
 .\Word\,Joomla\ ja Prestashop.bash
